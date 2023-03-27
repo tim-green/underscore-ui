@@ -5,84 +5,85 @@
 
 */
 
-/**
- * Add custom Bootstrap styles
- */
 
-// Bootstrap 4 Customization options: https://getbootstrap.com/docs/4.0/getting-started/theming/#sass-options
-/*
-// Options
-$enable-rounded:            true !default;
-$enable-shadows:            false !default;
-$enable-gradients:          false !default;
-$enable-transitions:        true !default;
-$enable-hover-media-query:  false !default;
-$enable-grid-classes:       true !default;
-$enable-print-styles:       true !default;
-
-$spacer:                    1rem !default;
-
-// Grayscale vars
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-
-// Color vars
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
-
-// Fonts
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:   Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
-*/
 
 
 // Colours
+$white: #fff !default;
+$gray-100: #f1f5f9 !default;
+$gray-200: #f4f6f8 !default;
+$gray-300: #dfe3e8 !default;
+$gray-400: #c4cdd5 !default;
+$gray-500: #919eab !default;
+$gray-600: #637381 !default;
+$gray-700: #454f5b !default;
+$gray-800: #212b36 !default;
+$gray-900: #161c24 !default;
+$black: #000 !default;
+$red: #dc3545 !default;
+$orange: #fd7e14 !default;
+$yellow: #f59e0b !default;
+$green: #198754 !default;
+$teal: #20c997 !default;
+$cyan: #0ea5e9 !default;
+$primary: #624bff !default;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
 
-$color-primary: #000;
+// Light color
+$light-primary: #e0dcfe !default; 
+$light-secondary: #e9ecef !default; 
+$light-success: #eaf6ec !default; 
+$light-danger: #fbebec !default; 
+$light-warning: #fff3cd !default; 
+$light-info: #e7fafe !default; 
+$light-dark: #d1cfd8 !default; 
 
-//Black
-$black: #000;
-$medium-black: #1d1d1d;
-$darker-gray: #272727;
-$dark-gray:#101010;
-$medium-gray: #888;
-$light-gray: #d1d1d1;
+// Dark color
+$dark-primary: #593cc1 !default; 
+$dark-secondary: #5c596d !default; 
+$dark-success: #139a74 !default; 
+$dark-danger: #ae302e !default; 
+$dark-warning: #c28135 !default; 
+$dark-info: #51a0c2 !default; 
 
-//White
-$white: #fff;
-
-//Red
-$soft-red: #dc535b;
-$medium-red: #c9373f;
-
-//Blue
-$aqua: #00add0;
-//Purple
-$magenta: #930f5b;
+$theme-colors: () !default;
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "white": $white,
+    "light-primary": $light-primary,
+    "light-danger": $light-danger,
+    "light-info": $light-info,
+    "light-warning": $light-warning,
+    "light-secondary": $light-secondary,
+    "light-success": $light-success,
+    "light-dark": $light-dark,
+    "dark-primary": $dark-primary,
+    "dark-warning": $dark-warning,
+    "dark-info": $dark-info,
+    "dark-danger": $dark-danger,
+    "dark-success": $dark-success,
+    "dark-secondary": $dark-secondary,
+);
 
 // Base
 
 $base-line-height: 1.7;
 
 //Google font
-@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap);
 
 //Typekit font
 
